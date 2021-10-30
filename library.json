@@ -1,0 +1,20 @@
+{
+  "name": "Led4",
+  "version": "1.0.0",
+  "description": "Arduino library for 4-Bit LED Digital Tube Module with two 74HC595D-chip",
+  "keywords": "LED,Digital,74HC595D,4Bit,esp8266,esp32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biner88/Led4.git"
+  },
+  "authors": [
+    {
+      "name": "biner88",
+      "url": "https://github.com/biner88"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/biner88",
+  "frameworks": "Arduino",
+  "platforms": "*"
+}
