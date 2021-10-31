@@ -12,7 +12,7 @@ void flip()
 
   // led4.display(-995, 2);
 
-  // led4.display(99999, -1);
+  // led4.display(99999);
 }
 
 void setup()
