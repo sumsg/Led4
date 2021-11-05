@@ -39,6 +39,23 @@ void Led4::putUnit(int unit)
 {
   write(pow(2, unit));
   relock(0x0);
+  // switch (unit)
+  // {
+  // case 0:
+  //   delayMicroseconds(10);
+  //   break;
+  // case 1:
+  //   delayMicroseconds(200);
+  //   break;
+  // case 2:
+  //   delayMicroseconds(200);
+  //   break;
+  // case 3:
+  //   delayMicroseconds(200);
+  //   break;
+  // default:
+  //   break;
+  // }
 }
 void Led4::putDot(int unit)
 {
@@ -60,7 +77,8 @@ void Led4::putCode(int code, int unit)
 
 void Led4::put(unsigned char num, int unit)
 {
-  write(*(LEDTABLE + num));
+  unsigned char newNum = *(LEDTABLE + num);
+  write(newNum);
   putUnit(unit);
 }
 

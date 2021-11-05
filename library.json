@@ -1,6 +1,6 @@
 {
   "name": "Led4",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Arduino library for 4-Bit LED Digital Tube Module with two 74HC595D-chip",
   "keywords": "LED,Digital,74HC595D,4Bit,esp8266,esp32",
   "repository": {

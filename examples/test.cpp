@@ -1,9 +1,9 @@
 #include <Arduino.h>
-#include <Ticker.h>
+// #include <Ticker.h>
 #include <Led4.h>
 Led4 led4;
 
-void flip()
+void showLed()
 {
 
   led4.display("-1000", 0);
@@ -21,9 +21,11 @@ void setup()
   /// SCLK,  RCLK,  DIO
   led4.begin(2, 14, 13);
   ///
-  flipper.attach_ms(1, flip);
+  // flipper.attach_ms(1, flip);
 }
 
 void loop()
 {
+  showLed();
+  delayMicroseconds(500);
 }
